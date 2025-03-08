@@ -1,0 +1,45 @@
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.bg-grey{
+    background-color: #121212;
+}
+/* Scrollbar Track */
+::-webkit-scrollbar {
+    width: 8px; /* Adjust width */
+    height: 8px; /* For horizontal scrollbar */
+}
+
+/* Scrollbar Background */
+::-webkit-scrollbar-track {
+    background: #222; /* Dark background */
+    border-radius: 10px;
+}
+
+/* Scrollbar Thumb (Draggable part) */
+::-webkit-scrollbar-thumb {
+    background: #444; /* Dark gray */
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+/* Hover Effect */
+::-webkit-scrollbar-thumb:hover {
+    background: #666; /* Lighter gray on hover */
+}
+
+/* Firefox Scrollbar */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #444 #222;
+}
+
+.invert{
+    filter: invert(1);
+}

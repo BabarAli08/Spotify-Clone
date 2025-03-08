@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="utility.css">
+    <title>spotify clone</title>
+</head>
+<body>
+    <div class="hero flex">
+
+        <div class="left">
+            <div class="home bg-grey">
+                <div class="logo">
+                    <div class="spotify-logo">
+
+                        <img src="icons/spotify-icon.svg" alt="">
+                        <span>spotify</span>
+                    </div>
+                    <div class="cross">
+
+                        <img src="icons/cross.svg" alt="">
+                    </div>
+                </div>
+                <ul>
+                    <li><img src="icons/home.svg" alt="">Home</li>
+                    <li><img src="icons/search.svg" alt="">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey">
+
+
+                <div class="heading">
+                    <img src="icons/collection.svg" alt="">
+                    <span>Your library</span>
+                </div>
+                <div class="songlist">
+                    <ul></ul>
+                </div>
+                <div class="footer">
+                    <div class="footer-top">
+                        <span> <a href="#">Legal</a> </span>
+                        <span> <a href="#">Privacy Center</a> </span>
+                        <span> <a href="#">Privacy Policy</a> </span>
+                        <span> <a href="#">Cookies</a> </span>
+                        <span> <a href="#">About Ads</a> </span>
+                       
+                    </div>
+                    <div class="footer-bottom">
+                        <span><a href="">Accessibility</a> </span>
+                        <span> <a href="">Cookies</a> </span>
+                    </div>
+                </div>
+                
+
+
+
+
+            </div>
+        </div>
+        <div class="right">
+            <nav class="navbar">
+                <div class="arrows">
+                    <div class="arrows-container">
+
+                        <img src="icons/arrow-left.svg" alt="">
+                    </div>
+                    <div class="arrows-container">
+
+                        <img src="icons/arrow-right.svg" alt="">
+                    </div>
+                   
+                </div>
+                <div class="hamburger">
+                    <img src="icons/hamburger.svg" alt="">
+                </div>
+                <div class="signups">
+                    <button type="submit" class="sign-up">Sign up</button>
+                    <button type="submit" class="log-in">Log in</button>
+                </div>
+            </nav>
+            <div class="playlists">
+                <div class="spotify-playlists">
+                    <h1>Spotify PLaylists</h1>
+                    <span>Show all</span>
+                </div>
+                <div class="card-container">
+                    
+                 
+                  
+               
+                    
+               
+                    
+
+                  
+
+            </div>
+            <div class="playbar">
+               <div class="playbar-buttons">
+
+                   <div class="song-info">
+   
+                   </div>
+                   <div class="songbuttons">
+                       <img id="previous" src="icons/previous-song.svg" alt="">
+                       <img id="play" src="icons/play.svg" alt="">
+                       <img id="next" src="icons/next-song.svg" alt="">
+                       <div class="volume">
+                        <img src="icons/volume high.svg" alt="">
+                        <div class="range">
+                            <input type="range" name="volume">
+                        </div>
+                       </div>
+                   </div>
+                   <div class="song-time">
+   
+                   </div>
+               </div>
+                <div class="seekbar">
+                    <div class="circle">
+                        
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="effects.js"></script>
+</body>
+</html>
